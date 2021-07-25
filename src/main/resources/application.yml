@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: info
+
+spring:
+  profiles:
+    include: "auth"
+  devtools:
+    livereload:
+      enabled: true
+
